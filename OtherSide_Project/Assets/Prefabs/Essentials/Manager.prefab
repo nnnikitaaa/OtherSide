@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2912330813744968147
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2912330813744968173}
+  - component: {fileID: 2912330813744968172}
+  - component: {fileID: 2912330813744968174}
+  - component: {fileID: 1985396844}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &2912330813744968173
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2912330813744968147}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2912330813744968172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2912330813744968147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 905346018d3767042a4fea6379031731, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  groundInside:
+    serializedVersion: 2
+    m_Bits: 2048
+  groundOutside:
+    serializedVersion: 2
+    m_Bits: 4096
+  dieExplosionPrefab: {fileID: 5762119023184476394, guid: c3012402d082bb248bcd156a350cffd1,
+    type: 3}
+  spawnPointPrefab: {fileID: 1639437695630056290, guid: 4514da3abc43a474195c05864e8bea5c,
+    type: 3}
+  whitePixel: {fileID: 2935470798375178732, guid: 7fb3022e07099ef4dad1107272d42286,
+    type: 3}
+  spawnPointSetEffect: {fileID: 3047161712074175380, guid: 767f469bbc9e9d847965768be4a7a21f,
+    type: 3}
+  playerInsideMask:
+    serializedVersion: 2
+    m_Bits: 512
+  playerOutsideMask:
+    serializedVersion: 2
+    m_Bits: 1024
+  playerOutside: 0
+  playerInside: 0
+--- !u!114 &2912330813744968174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2912330813744968147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a984d2ec8f33b1b42899385940e9903f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  normalColor: {r: 0, g: 0, b: 0, a: 1}
+  insideColor: {r: 0.34117648, g: 0.09411765, b: 0.09411765, a: 1}
+  maskSprite: {fileID: 0}
+--- !u!114 &1985396844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2912330813744968147}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 324ab5f96659ff4469567da0e572259e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pauseMenu: {fileID: 0}

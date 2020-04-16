@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Hurt
+  - End
+  - Buff
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - SwapPlatform
+  - PlayerInside
+  - PlayerOutside
+  - GroundInside
+  - GroundOutside
+  - Inside
+  - Outside
+  - EnemyOutside
+  - EnemyInside
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Player
+    uniqueID: 244995617
+    locked: 0
+  - name: ForegroundOutside
+    uniqueID: 4081296843
+    locked: 0
+  - name: ForegroundInside
+    uniqueID: 3494895645
+    locked: 0
+  - name: Text
+    uniqueID: 4023858891
+    locked: 0
+  - name: Foreground
+    uniqueID: 1545249159
+    locked: 0
